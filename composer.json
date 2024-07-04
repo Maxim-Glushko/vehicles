@@ -1,0 +1,13 @@
+{
+    "name": "myvendor/vehicles",
+    "description": "A PHP console application to calculate trip costs for different vehicles.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vehicles\\": "src/Vehicles/",
+            "TripCalculator\\": "src/TripCalculator/"
+        }
+    },
+    "require": {}
+}
